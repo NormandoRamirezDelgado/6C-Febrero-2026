@@ -9,6 +9,11 @@ void main() {
   var curp = 'GAFS081201HTSMLNB3';
   var estadoCivil = true;
   var apellido_paterno = 'Ruíz';
+  print(edad);
+  print(curp);
+  print(nombre);
+  print(estadoCivil);
+  print(apellido_paterno);
 
   // Esta prohibido usar nombres de variables asi:
   var a = 10;
@@ -16,6 +21,8 @@ void main() {
   var num = 8;
   var num1 = 56;
   var numero1 = 7;
+  print(a + num + num1 + numero1);
+  print(c);
 
   
 

@@ -11,6 +11,10 @@ void main() {
   double valor = 0.50;
   double numeroDos = 19.0;
   double doble = 1265464764675476465456.2342121216571321315215341345234532453;
+  print(promedio);
+  print(numeroDos);
+  print(valor);
+  print(doble);
 
   //String. Cadenas de Texto
   String cadena = 'Cualquier texto es valido entre comillas';
@@ -18,10 +22,18 @@ void main() {
   String numeroCadena = '56'; // Es una cadena no un número
   String espacio = ' ';
   String nulo = '';
+  print(cadena);
+  print(sexo);
+  print(nulo);
+  print(espacio);
+  print(cadena);
+  print(numeroCadena);
+
 
   // bool. Boleanos (Falo / Verdadero)
   bool esEstudiante = true;
   bool esMayorEdad = false;
+  print(esEstudiante);
 
   //dynamic. Tipo Dinámico
   dynamic valorDinamico = 10;
@@ -31,6 +43,12 @@ void main() {
   print(valorDinamico);
   valorDinamico = 'Hola';
   print(valorDinamico);
+
+  print(esMayorEdad);
+  print(valorDinamico);
+  print(numero);
+  print(edad);
+  print(entero);
 
 
 

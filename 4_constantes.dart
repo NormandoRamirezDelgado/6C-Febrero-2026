@@ -15,4 +15,8 @@ void main(){
   print('Valor de PI: $PI'); //Esto es una interpolación
   // VELOCIDAD_LUZ = 300000000;  // ERROR
 
+  print(VELOCIDAD_LUZ);
+  print(NUMERO);
+  print(REAL);
+
 }
