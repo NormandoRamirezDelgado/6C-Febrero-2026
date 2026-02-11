@@ -5,7 +5,7 @@ void main() {
 
   print(valor == 18 || tieneTitulo);
   print(esEstudiante && tieneTitulo);  // AND: false
-  print(esEstudiante || tieneTitulo);  // OR: true
+  //print(esEstudiante || tieneTitulo);  // OR: true
   print(!esEstudiante);                // NOT: false
 
   /*

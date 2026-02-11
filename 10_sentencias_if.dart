@@ -8,6 +8,11 @@ void main() {
   */
   int calificacion = 81;
 
+  String asd = calificacion.toString();
+
+  int valor =  int.parse(asd);
+  print(valor);
+
   //Condición doble
   if (calificacion >= 60) {
     print('º\nAcredito\n');
@@ -33,6 +38,7 @@ void main() {
               print('Necesita mejorar');
           }
   // Salida: Muy bien
+
 
 
 }
