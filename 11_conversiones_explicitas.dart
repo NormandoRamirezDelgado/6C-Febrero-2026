@@ -8,8 +8,10 @@ void main() {
 
   int numeroUno = 123;
   int numeroDos = 6524200889711234;
+  print(numeroDos);
 
   double dobleUno = numeroUno.toDouble();
+  print(dobleUno);
 
   double dobleDos = 1234523456243563567.86348623487623465;
   int entero = dobleDos.toInt();
