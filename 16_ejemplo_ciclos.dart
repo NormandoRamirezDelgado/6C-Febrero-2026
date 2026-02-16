@@ -29,6 +29,7 @@ void main() {
   for (var i = 100; i < 150; i++) {
     if (i % 7 == 0){
       print('Número Múltiplo de 7: $i');
+        
     }
   }
 }
