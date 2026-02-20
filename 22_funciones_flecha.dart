@@ -7,6 +7,7 @@ int multiplicar(int a, int b) {
 int multiplicarFlecha(int a, int b) => a * b;
 
 void main() {
+
   print(multiplicar(4, 5));  // Salida: 20
 
   //Llamar la Función de flecha o Arrow Functions
