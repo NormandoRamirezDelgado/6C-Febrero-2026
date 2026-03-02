@@ -15,11 +15,4 @@ void main() {
   usuario.forEach((llave, valor){
     print('$llave: $valor');
   });
-
-  Map<int, dynamic> autobuses = {
-    1000 : 'Marco Polo',
-    1100 : 189276453,
-    3635 : false,
-    3835 : 10.0,
-  };
 }
