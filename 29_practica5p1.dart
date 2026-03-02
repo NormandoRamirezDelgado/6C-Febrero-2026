@@ -1,12 +1,12 @@
 //Programa que crea una lista de peliculas y una de colores y posteriormente le agrega un valor a cada una, imprime los elementos de una manera enumerada y el tamaño de cada lista.
 import 'dart:io';
 
-List<String> cargarLista(List<String> lista, String mensaje){
+void cargarLista(List<String> lista, String mensaje){
   for (var i = 0; i < 5; i++) {
     print('Introducir tu $mensaje:');
     lista.add(stdin.readLineSync()!);
   }
-  return lista;
+
 }
 
 List<String> agregarDatos(List<String> lista, String mensaje) {
