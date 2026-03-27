@@ -1,6 +1,7 @@
 class Empleado {
   String _nombre;
   double _salario;
+  // ignore: unused_field
   String _rfc;
  
   Empleado(this._nombre, this._salario, this._rfc);
