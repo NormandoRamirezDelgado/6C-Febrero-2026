@@ -19,7 +19,7 @@ class Vehiculo {
 class Automovil extends Vehiculo {
   int numeroPuertas;   // ← atributo EXCLUSIVO de Automovil
 
-  Automovil(String marca, int velocidadMaxima, this.numeroPuertas) : super(marca, velocidadMaxima); // ← inicializa atributos del padre
+  Automovil(super.marca, super.velocidadMaxima, this.numeroPuertas);// ← inicializa atributos del padre
 
   void abrirMaletero() => print("Maletero del $marca abierto."); // ↑ usa 'marca' heredado de Vehiculo
 }
