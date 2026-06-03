@@ -16,21 +16,22 @@ class ListView2Screen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('ListView Tipo 2'),
+        //backgroundColor: Colors.indigo,
+        foregroundColor: Colors.white,
       ),
-      body: ListView(
-        children: [
-          
-          ...options.map(
-            (game) => ListTile(
-              //leading: Icon(Icons.access_time_outlined),
-              trailing: Icon(Icons.arrow_forward_ios_outlined),
-              title: Text( game ),
-            ), 
-          ),
+      body: ListView.separated(
+        itemCount: options.length,
+        itemBuilder: (_, index) => ListTile(
+          title: Text( options[index] ),
+          trailing: Icon(Icons.arrow_forward_ios_outlined, color: const Color.fromARGB(255, 215, 15, 25)),
+          onTap: () {
 
-          //Divider(),
+            // final game = options[index];
+            // print(game);
 
-        ],
+          },
+        ),
+        separatorBuilder: (_, _) => Divider(), 
       ),
     );
   }
