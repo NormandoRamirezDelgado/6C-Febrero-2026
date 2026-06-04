@@ -15,7 +15,6 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Componentes de Flutter'),
         //backgroundColor: const Color.fromARGB(255, 218, 153, 229),
-        foregroundColor: Colors.white,
       ),
       body: ListView.separated(
         itemBuilder: (context, index) => ListTile(

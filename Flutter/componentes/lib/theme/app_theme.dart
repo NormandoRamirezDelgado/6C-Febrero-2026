@@ -10,8 +10,16 @@ class AppTheme {
 
     //AppBar Theme
     appBarTheme: AppBarTheme(
-      backgroundColor: const Color.fromARGB(255, 172, 234, 176),
-    )
+      backgroundColor: const Color.fromARGB(255, 7, 62, 53),
+      foregroundColor: Colors.white,
+    ),
+
+    //TextButton Them
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(foregroundColor: const Color.fromARGB(255, 236, 12, 27)),
+    ),
+
+
   );
 
   static final darkTheme = ThemeData.dark().copyWith(
