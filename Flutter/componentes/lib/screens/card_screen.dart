@@ -17,6 +17,17 @@ class CardScreen extends StatelessWidget {
         children: [
 
           CustomCardType1(),
+          SizedBox(height: 10,),
+          CustomCardType2(imageUrl: 'https://assets.tommackie.com/wp-content/uploads/2021/05/25133428/190253-1.jpg', name: 'Un Hermoso Paisaje',),
+
+          SizedBox(height: 10,),
+
+          CustomCardType2(imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg'),
+
+          SizedBox(height: 10,),
+
+          CustomCardType2(imageUrl: 'https://images.unsplash.com/photo-1692264438297-e1e38a867d02?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJlYXV0aWZ1bCUyMGxhbmRzY2FwZXxlbnwwfHwwfHx8MA%3D%3D'),
+      
 
         ],
       )
